@@ -1,0 +1,37 @@
+.main__section
+{
+    position: relative;
+    /*background-color: ;*/
+    color: #FFF;
+    min-height: 100vh;
+    padding: 57px 27px;
+    background: url("../../assets/react-icon.png") no-repeat #33373E right 20%;
+    background-size: 200px;
+}
+.header
+{
+    font-weight: 700;
+    margin-bottom: 47px;
+    letter-spacing: -0.05em;
+}
+.react__facts__list
+{
+    max-width: 400px;
+}
+li
+{
+    padding-block: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+li::marker{
+    color: #61DAFB;
+    font-size: 1.4em;
+}
+.react__icon
+{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 200px;
+}

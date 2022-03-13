@@ -1,0 +1,15 @@
+.nav__bar
+{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+}
+.logo__image
+{
+    width: 60px;
+}
+.logo__text
+{
+    color: #00D8FF;
+}
