@@ -1,9 +1,9 @@
 import "./Main.css";
 
-export default function Main()
+export default function Main(props)
 {
     return(
-        <main className="main__section">
+        <main className={props.darkMode ? "main__section dark" : "main__section"}>
             <h1 className="header"> Fun facts about React</h1>
             <ul className="react__facts__list">
                 <li>Was first released in 2013</li>

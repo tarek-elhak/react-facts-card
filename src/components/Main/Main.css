@@ -1,12 +1,20 @@
 .main__section
 {
     position: relative;
-    /*background-color: ;*/
-    color: #FFF;
+    color: #2B283A;
     min-height: 100vh;
     padding: 57px 27px;
-    background: url("../../assets/react-icon.png") no-repeat #33373E right 20%;
+    background-image: url("../../assets/react-light-icon.png");
+    background-repeat: no-repeat;
+    background-color: #FFF ;
+    background-position: right 20%;
     background-size: 200px;
+}
+.main__section.dark
+{
+    background-image: url("../../assets/react-dark-icon.png");
+    background-color: #282D35;
+    color: #FFF;
 }
 .header
 {
